@@ -1,0 +1,21 @@
+@media screen and (max-width: 991px) {
+  .navbar-nav-bg {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .navbar-nav li.nav-item {
+    text-align: center;
+  }
+
+  .blogs .post-img-container {
+    position: relative;
+    padding-top: 75%; /* Radio 4:3 = y/x */
+  }
+
+  .blogs .post-img-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: initial !important;
+  }
+}
